@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "index.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,8 +15,9 @@
     "url": "https://github.com/sergioalejserrano/FinalProject/issues"
   },
   "homepage": "https://github.com/sergioalejserrano/FinalProject#readme",
-  "description": "",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
