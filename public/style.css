@@ -10,6 +10,18 @@
   font-family: "AmazonEmber_Lt";
   src: url("./font/Ember/AmazonEmber_Lt.ttf");
 }
+@font-face {
+  font-family: "AmazonEmber_Md";
+  src: url("./font/Ember/Amazon-Ember-Medium.ttf");
+}
+@font-face {
+  font-family: "AmazonEmber_Th";
+  src: url("./font/Ember/AmazonEmber_Th.ttf");
+}
+@font-face {
+  font-family: "AmazonEmber_He";
+  src: url("./font/Ember/AmazonEmber_He.ttf");
+}
 p {
   font-family: "AmazonEmber_Rg", Arial, sans-serif;
   font-weight: lighter;
@@ -46,4 +58,28 @@ nav a:hover {
 }
 .search_icon {
   background-color: #febd69;
+}
+.rowdinamic {
+  position: absolute;
+  top: 38%;
+  align-items: center;
+  margin-left: 25px;
+}
+.rowdinamic2 {
+  position: absolute;
+  top: 80%;
+  align-items: center;
+  margin-left: 25px;
+}
+.card {
+  padding: 20px;
+}
+.card h5 {
+  color: #0F1111;
+  font-family: "AmazonEmber_Bd", Arial, sans-serif;
+  font-size: 21px;
+}
+.card-img-top {
+  width: 245px;
+  height: 245px;
 }
